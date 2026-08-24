@@ -1,0 +1,4 @@
+#include "resource.h"
+IDR_APP_EXE RCDATA "payload\\Fsr3VirtualCamera.exe"
+IDR_PLUGIN_DLL RCDATA "payload\\fsr-camera-source.dll"
+IDR_LOCALE_INI RCDATA "payload\\en-US.ini"

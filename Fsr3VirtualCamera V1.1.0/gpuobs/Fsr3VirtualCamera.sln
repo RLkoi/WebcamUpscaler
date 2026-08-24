@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.9.12112.369 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fsr3VirtualCamera", "Fsr3VirtualCamera\Fsr3VirtualCamera.vcxproj", "{A529E09C-565B-48EB-A6B8-79B9A82B8922}"
+	ProjectSection(ProjectDependencies) = postProject
+		{15A682F9-5393-41D1-AB33-AFAAA4BC6A2E} = {15A682F9-5393-41D1-AB33-AFAAA4BC6A2E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtualCameraSource", "VirtualCameraSource\VirtualCameraSource.vcxproj", "{15A682F9-5393-41D1-AB33-AFAAA4BC6A2E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RegisterVirtualCamera", "RegisterVirtualCamera\RegisterVirtualCamera.vcxproj", "{C06499FE-5851-45A0-9129-0E24011E5749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A529E09C-565B-48EB-A6B8-79B9A82B8922}.Debug|x64.ActiveCfg = Debug|x64
+		{A529E09C-565B-48EB-A6B8-79B9A82B8922}.Debug|x64.Build.0 = Debug|x64
+		{A529E09C-565B-48EB-A6B8-79B9A82B8922}.Release|x64.ActiveCfg = Release|x64
+		{A529E09C-565B-48EB-A6B8-79B9A82B8922}.Release|x64.Build.0 = Release|x64
+		{15A682F9-5393-41D1-AB33-AFAAA4BC6A2E}.Debug|x64.ActiveCfg = Debug|x64
+		{15A682F9-5393-41D1-AB33-AFAAA4BC6A2E}.Debug|x64.Build.0 = Debug|x64
+		{15A682F9-5393-41D1-AB33-AFAAA4BC6A2E}.Release|x64.ActiveCfg = Release|x64
+		{15A682F9-5393-41D1-AB33-AFAAA4BC6A2E}.Release|x64.Build.0 = Release|x64
+		{C06499FE-5851-45A0-9129-0E24011E5749}.Debug|x64.ActiveCfg = Debug|x64
+		{C06499FE-5851-45A0-9129-0E24011E5749}.Debug|x64.Build.0 = Debug|x64
+		{C06499FE-5851-45A0-9129-0E24011E5749}.Release|x64.ActiveCfg = Release|x64
+		{C06499FE-5851-45A0-9129-0E24011E5749}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
