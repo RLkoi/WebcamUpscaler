@@ -2,6 +2,89 @@
 
 ### Current version: V2.1
 
+## Version Naming
+
+WebcamUpscaler does not use conventional semantic versioning.
+
+Its version numbers are based on **how significantly an update changes the processing pipeline**, rather than simply counting releases.
+
+The general format is:
+
+`V<X>[Y].<Z>.<A>`
+
+### X — Pipeline Generation
+
+The first number represents the fundamental generation of WebcamUpscaler's processing pipeline.
+
+A change to this number means the architecture or processing pipeline has changed significantly enough to be considered a new generation.
+
+Examples:
+
+- `V1` — Original WebcamUpscaler pipeline
+- `V2` — FidelityFX FSR-based pipeline
+- `V3` — Future major pipeline generation
+
+The generation can also advance if the regular update number reaches its rollover point.
+
+### Y — Pipeline Modifier
+
+The optional letter after the generation represents a significant modification to the existing pipeline that is important enough to distinguish it from normal updates, but does not constitute an entirely new pipeline generation.
+
+If no such modification exists, **there is no letter**.
+
+Pipeline modifiers are ranked from most significant to least significant:
+
+`X > Y > Z > B > F`
+
+For example:
+
+`V2X` represents a more substantial modification of the V2 pipeline than `V2B`.
+
+The **V2X designation is specifically reserved for the AMD driver-override version of WebcamUpscaler**, where the V2 FSR integration remains the underlying pipeline but AMD's driver replaces/upgrades the FSR implementation.
+
+### Z — Regular Update
+
+The first number after the decimal represents normal WebcamUpscaler releases.
+
+This includes regular features, fixes, improvements and other updates that do not significantly alter the processing pipeline.
+
+For example:
+
+- `V2.0` — Initial V2 release
+- `V2.1` — First regular V2 update
+- `V2.2` — Second regular V2 update
+
+If this number reaches **10**, the version rolls into the next pipeline generation rather than continuing indefinitely.
+
+### A — Patch / Small Addition
+
+The final number is used for small patches, additions and minor changes.
+
+These are changes that do not justify a normal version increment.
+
+For example:
+
+- `V2.1.0` — Normal V2.1 release
+- `V2.1.1` — Small patch/addition to V2.1
+- `V2.1.2` — Another small patch
+
+### Example Version Progression
+
+A possible release history could therefore look like:
+
+`V2.0.0`
+→ `V2.1.0`
+→ `V2.1.1`
+→ `V2.2.0`
+→ `V2F.0.0`
+→ `V2B.0.0`
+→ `V2Z.0.0`
+→ `V2Y.0.0`
+→ `V2X`
+→ `V3.0.0`
+
+This makes the version name itself indicate **how important an update is to WebcamUpscaler's actual processing architecture**, rather than only indicating when it was released.
+
 WebcamUpscaler is an experimental, AI-developed GPU camera processing application originally created to work around limitations I encountered with Canon EOS Webcam Utility.
 
 It takes a camera input, processes and upscales it on the GPU, optionally interpolates additional frames, and exposes the processed output directly to OBS through a native OBS source plugin.
