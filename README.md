@@ -1,6 +1,6 @@
 # WebcamUpscaler
 
-### Current version: V1.0.1
+### Current version: V2.1
 
 WebcamUpscaler is an experimental, AI-developed GPU camera processing application originally created to work around limitations I encountered with Canon EOS Webcam Utility.
 
@@ -44,7 +44,6 @@ AI has handled a large portion of:
 - CMake configuration
 - compiler and linker debugging
 - installer development
-- documentation
 
 The development process has effectively been:
 
