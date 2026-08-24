@@ -1,0 +1,5 @@
+#include "resource.h"
+IDR_APP_EXE RCDATA "payload\\WebcamUpscaler.exe"
+IDR_PLUGIN_DLL RCDATA "payload\\fsr-camera-source.dll"
+IDR_LOCALE_INI RCDATA "payload\\en-US.ini"
+IDR_FFX_RUNTIME RCDATA "payload\\amd_fidelityfx_dx12.dll"

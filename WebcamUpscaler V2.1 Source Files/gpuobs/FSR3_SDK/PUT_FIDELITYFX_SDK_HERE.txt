@@ -1,0 +1,5 @@
+Drop the untouched AMD SDK ZIP here:
+
+  FidelityFX-SDK-v1.1.4.zip
+
+Do NOT extract it manually. The project runs Prepare-FidelityFX.cmd before compilation and extracts it to _extracted automatically.
