@@ -1,4 +1,4 @@
-<img width="500" height="500" alt="WebcamUpscaler_Logo-removebg-preview" src="https://github.com/user-attachments/assets/d3d3a52b-e4db-4fbe-916e-acb5c6f0f223" />
+<img width="500" height="500" alt="WebcamUpscaler Logo" src="https://github.com/user-attachments/assets/83b53a8a-7e19-4dda-b1f7-a43c86eb3921" />
 
 
 
