@@ -4,6 +4,7 @@
 
 ## Known Support
 Canon EOS 700D
+
 Logitech C920
 
 # Assumed Support
