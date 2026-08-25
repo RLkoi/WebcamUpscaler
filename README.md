@@ -3,7 +3,12 @@
 ### Current version: V2-X.2.1
 
 ## Known Support
-Canon EOS Webcam Utility
+Canon EOS 700D
+Logitech C920
+
+# Assumed Support
+Generic Media Foundation Webcams
+Canon EOS Cameras Running EOS Webcam Utility
 
 ## Version Naming
 
