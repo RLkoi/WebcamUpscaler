@@ -1,6 +1,6 @@
 # WebcamUpscaler
 
-### Current version: V2-X.1.0
+### Current version: V2-X.2.1
 
 ## Known Support
 Canon EOS Webcam Utility
