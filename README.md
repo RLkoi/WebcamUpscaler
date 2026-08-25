@@ -2,12 +2,16 @@
 
 ### Current version: V2-X.2.1
 
+## Future of the project
+
+For V3.0 I plan to introduce a new motion detection system to improve the FSR quality as currently you need certain variables from the image that raw video doesn't supply so I will make something similar to a compression algorithm but just to grab that data for the FSR Upscaler.
+
 ## Known Support
 Canon EOS 700D
 
 Logitech C920
 
-# Assumed Support
+### Assumed Support
 Generic Media Foundation Webcams
 
 Canon EOS Cameras Running EOS Webcam Utility
