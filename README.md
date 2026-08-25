@@ -1,6 +1,6 @@
 # WebcamUpscaler
 
-### Current version: V2.1
+### Current version: V2-X.1.0
 
 ## Version Naming
 
