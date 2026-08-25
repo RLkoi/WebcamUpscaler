@@ -1154,3 +1154,6 @@ OBS Studio is developed by the OBS Project.
 AMD FidelityFX and FidelityFX Super Resolution are AMD technologies.
 
 All respective trademarks remain the property of their respective owners.
+
+<img width="245" height="135" alt="image" src="https://github.com/user-attachments/assets/0c429af2-7952-44f9-be89-0eaa6f302818" />
+
