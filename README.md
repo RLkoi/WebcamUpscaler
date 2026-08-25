@@ -2,6 +2,9 @@
 
 ### Current version: V2-X.1.0
 
+## Known Support
+Canon EOS Webcam Utility
+
 ## Version Naming
 
 WebcamUpscaler does not use conventional semantic versioning.
