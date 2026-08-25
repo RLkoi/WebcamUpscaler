@@ -8,6 +8,7 @@ Logitech C920
 
 # Assumed Support
 Generic Media Foundation Webcams
+
 Canon EOS Cameras Running EOS Webcam Utility
 
 ## Version Naming
