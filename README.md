@@ -1,3 +1,6 @@
+<img width="2000" height="2000" alt="WebcamUpscaler Logo" src="https://github.com/user-attachments/assets/052e0668-1889-4304-9041-cf07c64e6e02" />
+
+
 # WebcamUpscaler
 
 ### Current Version: V2-XB
